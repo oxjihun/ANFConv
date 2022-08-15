@@ -1,11 +1,7 @@
-# 확실히 일러두기
+# ANFConv
 
-ANFConv.cpp는 2022-08-09 김유성 학생이 보내준 코드. 
+이 리포지토리에 있는 코드는 2022 R&E 활동의 일환으로 작성되었습니다. 
 
-카톡으로 보내준 원본 cpp 파일에서 numofboxes 순서, process.h 제거, python 파일 경로 등 약간 수정하였지만, 
+`ANFConv.cpp`: 평문과 암호문의 쌍들로부터 ANF를 생성하는 코드입니다. 21-025 김유성 학생이 원본을 작성하였고, 20-046 박지훈 학생이 실험 환경에 맞게 일부 수정하였습니다. 여기에 올린 것이 실험에 적합하도록 수정된 버전입니다. 
 
-이 레포지토리 코드의 대부분은 김유성 학생에게서 나온 것임. (김유성 학생에게 허락 받고 이 계정으로 올림!)
-
-Matrix_generator는 lowmc 공식 py 파일을 변형하였음. 
-
-이 README 파일 자체는 박지훈이 작성함. 
+`Matrix_generator.py`: 행렬과 상수를 생성하는 코드로, ANFConv.cpp가 작동할 때 필요합니다. [LowMC](https://github.com/LowMC/lowmc)의 `generate_matrices.py` 파일을 변형하였습니다. 
